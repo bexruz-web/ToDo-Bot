@@ -1,0 +1,27 @@
+{
+  "welcome_message": "Hello! 👋 Dear <b>{}</b>!.\nWelcome to <b>Todo Bot</b>! 📝\nOrganize your tasks, achieve your goals effortlessly, and never forget anything! 😊\n\nMain Menu: /todo\n\nView the list of available commands: /help",
+  "regular_welcome_message": "Welcome!😊 <b>{}</b>\nUse the following options to organize and manage your tasks effectively👇\n\nMain Menu: /todo\n\nView the list of available commands: /help",
+  "help_message": "Use the following commands to make the most of Todo Bot:\n\n/start - 🤖Restart the bot\n\n📋Work with tasks: /todo\n\n/help - Shows the list of available commands\n\n/language - Allows you to change the bot's language🌐\n\n\nExplore all the features of the bot and make full use of it! 😊",
+  "choose_language": "Please select your preferred language:",
+  "language_changed": "✅ Language successfully changed: English",
+  "invalid_option_lang": "❌ Invalid choice. Please use the buttons to select a language: /language👈",
+  "invalid_option": "❌ Invalid choice. Please select one of the buttons:",
+  "todo_button_for_message": "Choose one of the options below👇:",
+
+  "enter_task_name": "📌Enter the task name:\n\n\nback: /todo",
+  "enter_task_time": "⏰Enter the time:",
+  "task_added": "✅Task added:\nTask: {task_name}\nTime: {task_time}\n\nNow all that's left is to complete it😊\n\n\n📢Please enable the bot's 'Notification' to receive timely messages!",
+  "invalid_time_format": "❌ Invalid time format. Please enter the time in the correct format (e.g., 14:00)",
+  "task_notification": "⏰ Your task: {task_name}\nIt's time to complete it now!",
+
+  "no_tasks": "The task list is empty\uD83E\uDD37\u200D♂\uFE0F",
+  "tasks_list": "\uD83D\uDDD2Task list:",
+
+  "task_name_to_remove": "Enter the name of the task to be deleted🗑:",
+  "task_removed": "Task deleted✅: {task_name}",
+  "task_not_found": "No task found with the entered name❌",
+
+  "task_add": "Add Tasks ➕",
+  "task_list": "Task List\uD83D\uDCD1",
+  "task_remove": "Delete Tasks"
+}

@@ -1,0 +1,27 @@
+{
+  "welcome_message": "Assalomu alaykum! 👋 hurmatli <b>{}</b>!.\n<b>Todo Bot</b> ga xush kelibsiz! 📝\nIshlaringizni tartibga soling, maqsadlaringizga oson erishing va hech narsani unutib qo‘ymang! 😊\n\nAsosiy Menu: /todo\n\nMavjud buyruqlar ro'yxatini ko'rish: /help",
+  "regular_welcome_message": "Xush kelibsiz!😊 <b>{}</b>\nVazifalaringizni tartibga solish va samarali boshqarish uchun quyidagilardan foydalaning👇\n\nAsosiy Menu: /todo\n\nMavjud buyruqlar ro'yxatini ko‘rish: /help",
+  "help_message": "Quyidagi buyruqlar orqali Todo Botni samarali ishlating:\n\n/start - 🤖Botni qayta ishga tushirish\n\n/todo - 📋Vazifalar bilan ishlash\n\n/help - Mavjud buyruqlar ro‘yxatini ko‘rsatadi\n\n/language - Botning tilini o‘zgartirish imkonini beradi🌐\n\n\nBotning barcha imkoniyatlarini o‘rganib chiqing va undan to‘liq foydalaning! 😊",
+  "choose_language": "Iltimos, o'zingizga qulay tilni tanlang: ",
+  "language_changed": "✅ Til muvaffaqiyatli o'zgartirildi: O'zbek tili",
+  "invalid_option_lang": "❌ Noto'g'ri tanlov. Iltimos, tilni tanlash uchun tugmalardan foydalaning: /language👈",
+  "invalid_option": "❌ Noto'g'ri tanlov. Iltimos, tugmalardan birini tanlang:",
+  "todo_button_for_message": "Kerakli tugmalaran birini tanlang👇:",
+
+  "enter_task_name": "📌Vazifa nomini kiriting:\n\n\nOrqaga: /todo",
+  "enter_task_time": "⏰Vaqtni kiriting:",
+  "task_added": "✅Vazifa qo'shildi:\nVazifangiz: {task_name}\nVaqti: {task_time}\n\nFaqatgina bajarish qoldi xolos😊\n\n\n📢Iltimos, sizga vaqtida xabar yuborilishi uchun Botning 'Bildirishnoma' sini yoqib qo'ying!",
+  "invalid_time_format": "❌ Noto'g'ri vaqt formati. Iltimos, vaqtni to'g'ri formatda kiriting (masalan, 14:00)",
+  "task_notification": "⏰ Vazifangiz: {task_name}\nHozirgi vaqtda bajarilishi kerak!",
+
+  "no_tasks": "Vazifalar ro'yxati bo'sh\uD83E\uDD37\u200D♂\uFE0F",
+  "tasks_list": "\uD83D\uDDD2Vazifalar ro'yxati:",
+
+  "task_name_to_remove": "O'chirilishi kerak bo'lgan vazifa nomini kiriting🗑:",
+  "task_removed": "Vazifa o'chirildi✅: {task_name}",
+  "task_not_found": "Kiritilgan nomdagi vazifa topilmadi❌",
+
+  "task_add": "Vazifalar qo'shish ➕",
+  "task_list": "Vazifalar ro'yxati\uD83D\uDCD1",
+  "task_remove": "Vazifalarni o'chirish"
+}
