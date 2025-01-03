@@ -29,7 +29,7 @@ class Database:
     def create_user(self, first_name, username, lang, chat_id):
         try:
             self.cur.execute("""
-                INSERT INTO to_do (first_name, user_name, language, chat_id)
+                INSERT INTO users (first_name, username, lang, chat_id)
                 VALUES (?, ?, ?, ?)""", (first_name, username, lang, chat_id))
             self.conn.commit()
         except sqlite3.Error as e:
@@ -37,7 +37,7 @@ class Database:
 
     def get_user_by_chat_id(self, chat_id):
         try:
-            self.cur.execute("SELECT * FROM to_do WHERE chat_id = ?", (chat_id,))
+            self.cur.execute("SELECT * FROM users WHERE chat_id = ?", (chat_id,))
             user = self.cur.fetchone()
             return user
         except sqlite3.Error as e:
@@ -46,7 +46,7 @@ class Database:
 
     def update_user_language(self, chat_id, new_language):
         try:
-            self.cur.execute("UPDATE to_do SET language = ? WHERE chat_id = ?", (new_language, chat_id))
+            self.cur.execute("UPDATE users SET lang = ? WHERE chat_id = ?", (new_language, chat_id))
             self.conn.commit()
         except sqlite3.Error as e:
             print(f"Error updating language: {e}")
