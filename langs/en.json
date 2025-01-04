@@ -22,6 +22,6 @@
   "task_not_found": "No task found with the entered name❌",
 
   "task_add": "Add Tasks ➕",
-  "task_list": "Task List\uD83D\uDCD1",
-  "task_remove": "Delete Tasks"
+  "task_list": "Task List \uD83D\uDCD1",
+  "task_remove": "Delete Tasks 🗑"
 }
